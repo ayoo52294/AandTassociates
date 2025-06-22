@@ -1,0 +1,147 @@
+.meet-visionaries {
+    background-color: transparent;
+    color: white;
+    padding: 4rem 1.5rem;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.section-header h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+
+.section-header .subtext {
+    font-size: 1.125rem;
+    color: white;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.visionary-grid {
+    display: grid;
+    gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .visionary-grid {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .meet-visionaries {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+.founder-card {
+    text-align: center;
+}
+
+.founder-img {
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;     
+    object-position: center;
+    border-radius: 10%;
+    margin: 0 auto 1rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border: 4px transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+
+
+.founder-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.role {
+    font-weight: 500;
+    margin-top: 0.25rem;
+}
+
+.role.blue {
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.role.indigo {
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.bio {
+    color: white;
+    font-size:1rem;
+    max-width: 25rem;
+    margin: 0.5rem auto 0;
+}
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.founder-card {
+    text-align: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 0.8s ease-out forwards;
+    border-radius: 5%;
+}
+
+.founder-card:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.founder-card:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+
+
+
+
+.founder-img:hover {
+    transform: scale(1.05);
+}
+
+
+.social-iconst {
+    display: inline-flex;
+    gap: 10px;
+    overflow: hidden;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.social-iconst a {
+    color: white;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-iconst a:hover {
+    color: #fad02c;
+    transform: scale(1.2);
+}

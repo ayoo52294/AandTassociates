@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color:black;
+  background: #fad02c;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5rem;
+  font-weight:500;
+  transition-property: all;
+  padding-inline: 1rem;
+  padding-block: 11px;
+}
+
+
+
+
+/* Buttons */
+.btn,
+.btn-sm {
+  @apply inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-all;
+}
+
+.btn {
+  @apply px-4 py-[11px];
+}
+
+.btn-sm {
+  @apply px-3 py-[7px];
+}

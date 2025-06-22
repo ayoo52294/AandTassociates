@@ -1,0 +1,36 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.8rem 0 0.8rem 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.header.sticky {
+    background-color: #f0f0f0;
+    box-shadow: 0 .1rem 1rem var(--shadow-color);
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin-left: -3rem;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+}
+
