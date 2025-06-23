@@ -89,11 +89,11 @@ const Footer: React.FC = () =>{
                 <div className="footer-section social-section">
                     <h4>Follow Us</h4>
                     <div className="social-icons">
-                        <a href="#" aria-label="Facebook"><FaFacebookF /></a>
-                        <a href="#" aria-label="Twitter"><FaTwitter /></a>
+                        <a href="https://web.facebook.com/profile.php?id=61577305545422" aria-label="Facebook"><FaFacebookF /></a>
+                        <a href="https://x.com/AandTassociates" aria-label="Twitter"><FaTwitter /></a>
                         <a href="#" aria-label="LinkedIn"><FaLinkedinIn /></a>
-                        <a href="#" aria-label="Instagram"><FaInstagram /></a>
-                        <a href="#" aria-label="Github"><FaGithub /></a>
+                        <a href="https://www.instagram.com/aandtassociatesofficial/" aria-label="Instagram"><FaInstagram /></a>
+                        <a href="https://github.com/AandT-associates" aria-label="Github"><FaGithub /></a>
                         <a href="#" aria-label="Whatsapp"><FaWhatsapp /></a>
                         <a href="#" aria-label="Telegram"><FaTelegramPlane /></a>
                     </div>
